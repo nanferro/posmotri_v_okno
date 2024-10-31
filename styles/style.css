@@ -40,6 +40,7 @@ ol {
 .page {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin: auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
