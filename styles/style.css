@@ -59,9 +59,9 @@ ol {
 
 .result__video-container {
   position: relative;
+  margin-block-end: 16px;
   inline-size: 711px;
   block-size: 386px;
-  margin-block-end: 16px;
 }
 
 .result__video {
@@ -90,16 +90,15 @@ ol {
 .search-form__label {
   display: flex;
   align-items: center;
-  inline-size: fit-content;
   cursor: pointer;
+  inline-size: fit-content;
 }
 
 .search-form__textfield {
-  inline-size: 225px;
-  border-block-start: 1px solid rgb(255, 255, 255);
-  border-inline-end: 1px transparent;
-  border-block-end: 1px solid rgb(255, 255, 255);
   border-inline-start: 1px transparent;
+  border-inline-end: 1px transparent;
+  border-block-start: 1px solid rgb(255, 255, 255);
+  border-block-end: 1px solid rgb(255, 255, 255);
   padding-block-start: 3px;
   color: inherit;
   font-family: inherit;
@@ -107,6 +106,7 @@ ol {
   font-size: inherit;
   line-height: inherit;
   background-color: rgb(27, 25, 25);
+  inline-size: 225px;
   appearance: none;
 }
 
@@ -115,8 +115,8 @@ ol {
 }
 
 .search-form__textfield:active {
-  border-inline-end: 1px solid rgb(255, 255, 255);
-  border-inline-start: 1px solid rgb(255, 255, 255);;
+  border-inline-start: 1px solid rgb(255, 255, 255);
+  border-inline-end: 1px solid rgb(255, 255, 255);;
 }
 
 .search-form__textfield:focus {
@@ -150,13 +150,12 @@ ol {
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
   content: '';
   display: block;
+  background-color: rgb(255, 255, 255);
   inline-size: 15px;
   block-size: 15px;
-  background-color: rgb(255, 255, 255);
 }
 
 .button {
-  block-size: 34px;
   border: 1px solid rgb(255, 255, 255);
   color: inherit;
   font-family: inherit;
@@ -165,6 +164,7 @@ ol {
   line-height: 122%;
   background-color: rgb(27, 25, 25);
   cursor: pointer;
+  block-size: 34px;
 }
 
 .button:active {
@@ -185,8 +185,8 @@ ol {
 }
 
 .search-form__submit-button {
-  inline-size: 194px;
   margin-block-start: 20px;
+  inline-size: 194px;
 }
 
 .content__title {
@@ -206,8 +206,8 @@ ol {
   position: relative;
   display: flex;
   flex-direction: column;
-  block-size: 300px;
   overflow-y: scroll;
+  block-size: 300px;
 }
 
 .content__list-item:not(:last-child) {
@@ -215,9 +215,9 @@ ol {
 }
 
 .content__card-link {
+  margin-block: 1px;
   color: rgb(255, 255, 255);
   text-decoration: none;
-  margin-block: 1px;
 }
 
 .content__card-link:active {
@@ -273,9 +273,9 @@ ol {
 }
 
 .content__video-card-thumbnail {
-  block-size: 103px;
   object-fit: cover;
   object-position: center;
+  block-size: 103px;
   inline-size: 194px;
 }
 
