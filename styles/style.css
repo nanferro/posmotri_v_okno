@@ -206,14 +206,9 @@ ol {
   position: relative;
   display: flex;
   flex-direction: column;
-  max-width: 400px;
-  height: 300px;
+  block-size: 300px;
   overflow-y: scroll;
 }
-
-.content__list::-webkit-scrollbar {
-  inline-size: 10px;
-} 
 
 .content__list-item:not(:last-child) {
   margin-block-end: 30px;
