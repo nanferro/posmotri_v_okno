@@ -54,7 +54,7 @@ ol {
   display: flex;
   align-items: flex-end;
   gap: 32px;
-  inline-size: 1140px;
+  max-inline-size: 1140px;
 }
 
 .result__video-container {
