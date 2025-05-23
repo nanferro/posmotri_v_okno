@@ -1,4 +1,4 @@
-## Look outside - accessible landing page
+## Look Outside - accessible landing page
 **Description:** Second study project in my Frontend Developer course at Yandex.Practicum.  
 Sprint 2 – "Accessibility and styling approaches."  
 In this project, I focused on writing clean CSS for a pre-built HTML layout.
