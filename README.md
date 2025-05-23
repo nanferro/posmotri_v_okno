@@ -1,6 +1,7 @@
 ## Look outside - accessible landing page
 **Description:** Second study project in my Frontend Developer course at Yandex.Practicum.  
-Sprint 2 – "Accessibility and styling approaches." 
+Sprint 2 – "Accessibility and styling approaches."  
+In this project, I focused on writing clean CSS for a pre-built HTML layout.
 
 🔧 Stack: HTML5, CSS3 (flexbox, grid)  
 🛠️ Tools: Figma, VS Code, Git, GitHub
